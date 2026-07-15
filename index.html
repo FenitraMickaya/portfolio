@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fenitra Mickaya — Développeur Web</title>
+  <meta name="description"
+    content="Portfolio d'Antoine Moreau, développeur web full-stack spécialisé en applications modernes, performantes et accessibles." />
+  <meta name="theme-color" content="#1a1a17" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a href="#main" class="skip-link">Aller au contenu principal</a>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">Fenitra Mickaya</a>
+      <nav class="nav" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#skills">Compétences</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"
+        aria-controls="mobile-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Navigation mobile">
+      <ul>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#skills">Compétences</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <p class="hero-eyebrow reveal">Développeur web full-stack</p>
+          <h1 class="hero-title reveal">
+            <em>Fenitra</em> — Je code. Je crée. J'évolue.
+
+
+          </h1>
+          <p class="hero-lead reveal">
+            Curieux par nature, passionné par le code et toujours prêt à créer quelque chose de nouveau.
+          </p>
+          <div class="hero-actions reveal">
+            <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+            <a href="#contact" class="btn btn-ghost">Me contacter</a>
+          </div>
+
+        </div>
+        <div class="hero-media reveal">
+          <img src="public/profile.png" alt="Portrait de RAFENOARIVO Fenitra Mickaya" width="480" height="600" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-media reveal">
+          <img src="public/coding.webp" alt="Portrait d'Antoine Moreau" width="480" height="600" />
+        </div>
+        <div class="about-content">
+          <p class="section-label reveal">À propos</p>
+          <h2 class="section-title reveal">Un artisan du web attaché aux détails.</h2>
+
+          <p class="reveal">
+            Ma conviction : transformer des idées en expériences simples, utiles et concrètes. Pour moi, le code est le
+            moyen de donner vie à ce qui n'existait encore que dans l'imagination.
+
+          </p>
+          <ul class="about-list reveal">
+            <li>Développement full-stack (front &amp; back)</li>
+            <li>Accompagnement d'équipes</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label reveal">Réalisations</p>
+          <h2 class="section-title reveal">Une sélection de projets académique récents.</h2>
+        </div>
+        <div class="projects-list">
+          <article class="project reveal">
+            <div class="project-media">
+              <img src="public/project-1.png" alt="Aperçu du tableau de bord analytique" width="800" height="560" />
+            </div>
+            <div class="project-body">
+              <span class="project-year">2026</span>
+              <h3>PLateforme de gestion hospitaliere</h3>
+              <p>
+                Plateforme de suivi des ressources hospitalières en temps réel : capacités d'accueil par service
+                (urgences, pédiatrie, réanimation), taux d'occupation, disponibilité des USI et coordination des
+                ambulances à l'échelle nationale.
+              </p>
+              <ul class="tags">
+                <li>React</li>
+                <li>Typescript</li>
+                <li>JavaScript</li>
+                <li>Sqlite</li>
+              </ul>
+              <a href="#contact" class="project-link">En savoir plus</a>
+            </div>
+          </article>
+
+
+
+          <article class="project reveal">
+            <div class="project-media">
+              <img src="public/project-3.png" alt="Aperçu de l'application de gestion de tâches" width="800"
+                height="560" />
+            </div>
+            <div class="project-body">
+              <span class="project-year">2026</span>
+              <h3>Application de gestion d'employé</h3>
+              <p>
+                Application mobile de gestion des resources humaines : portefeuille et demandes de retrait, registre
+                des heures et fiches de paie (heures normales, supplémentaires et primes), pointages et badge QR
+                personnel
+              </p>
+              <ul class="tags">
+                <li>kotlin</li>
+              </ul>
+              <a href="#contact" class="project-link">En savoir plus</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label reveal">Compétences</p>
+          <h2 class="section-title reveal">Les outils que je maîtrise au quotidien.</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3>Front-end</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Back-end</h3>
+            <ul>
+              <li>PHP</li>
+
+
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Bases de données</h3>
+            <ul>
+              <li>MySQL</li>
+              <li>MariaDB</li>
+
+            </ul>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Outils &amp; méthodes</h3>
+            <ul>
+              <li>Git &amp; GitHub</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-intro">
+          <p class="section-label reveal">Contact</p>
+          <h2 class="section-title reveal">Travaillons ensemble.</h2>
+          <p class="reveal">
+            Un projet en tête, une question ou simplement envie d'échanger ?
+            Écrivez-moi, je réponds généralement sous 24 heures.
+          </p>
+          <ul class="contact-details reveal">
+            <li><span>Email</span><a href="mailto:fenitramickaya45@gmail.com">fenitramickaya45@gmail.com</a></li>
+            <li><span>Localisation</span>Antsirabe Avaratra</li>
+            <li><span>Réseaux</span>
+              <a href="https://github.com/FenitraMickaya">GitHub</a>
+            </li>
+            <li><span>Télephone</span>033 15 286 46</li>
+            <a href="public/CV Professionnel Minimaliste Ingénieur Noir et Blanc.pdf" download class="btn">
+
+              Télécharger mon CV
+            </a>
+          </ul>
+
+        </div>
+        <form class="contact-form reveal" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required autocomplete="name" />
+            <span class="error" data-for="name"></span>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email" />
+            <span class="error" data-for="email"></span>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="error" data-for="message"></span>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer le message</button>
+          <p class="form-success" id="form-success" role="status" hidden>
+            Merci ! Votre message a bien été envoyé.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Fenitra Mickaya. Tous droits réservés.</p>
+      <a href="#hero" class="back-top">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script>
+    emailjs.init({
+      publicKey: "AG-jswacEhvw80Ibe"
+    });
+  </script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
